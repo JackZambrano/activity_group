@@ -8,5 +8,24 @@
 </head>
 <body>
     <script src="funciones.js"></script>
+     <form class="contact-form" action="enviar.php" method="POST">
+    <h2>Contáctanos</h2>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="asunto">Asunto:</label>
+    <input type="text" id="asunto" name="asunto" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+    <button type="submit">Enviar mensaje</button>
+  </form>
+
+</body>
 </body>
 </html>
